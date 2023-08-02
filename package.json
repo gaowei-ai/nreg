@@ -1,0 +1,30 @@
+{
+  "name": "@gw/nrs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "nrs": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nrs",
+    "registry",
+    "nrm",
+    "npm"
+  ],
+  "repository": {
+    "url": "https://github.com/gaowei-ai/nrs.git",
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "inquirer": "^8.2.5",
+    "node-http-ping": "^0.3.1"
+  }
+}
