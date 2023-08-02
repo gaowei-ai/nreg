@@ -3,47 +3,52 @@
 ## Install
 
 ```
-$ npm install -g nrm
+$ npm install -g nreg
 ```
 
-##### nrs list 查看目前源
+##### nreg list 查看目前源
+npm -> https://registry.npmjs.org/  
 
-npm -> https://registry.npmjs.org/
-yarn -> https://registry.yarnpkg.com/
-tencent -> https://mirrors.cloud.tencent.com/npm/
-cnpm -> https://r.cnpmjs.org/
-taobao -> https://registry.npmmirror.com/
-npmMirror -> https://skimdb.npmjs.com/registry/
+yarn -> https://registry.yarnpkg.com/  
 
-##### nrs use 切换源
+tencent -> https://mirrors.cloud.tencent.com/npm/ 
 
-##### nrs current 查看当前源
+cnpm -> https://r.cnpmjs.org/  
 
-##### nrs add 添加源
+taobao -> https://registry.npmmirror.com/  
 
-##### nrs delete [-radio/-mult]删除自定义源(单个或批量)
+npmMirror -> https://skimdb.npmjs.com/registry/  
 
-##### nrs rename 重命名
+##### nreg use 切换源
 
-##### nrs edit 编辑自定义镜像地址
+##### nreg current 查看当前源
 
-##### nrs ping [regName]测试镜像响应速度
+##### nreg add 添加源
+
+##### nreg delete [-radio/-mult]删除自定义源(单个或批量)
+
+##### nreg rename 重命名
+
+##### nreg edit 编辑自定义镜像地址
+
+##### nreg ping [regName]测试镜像响应速度
 
 # 用法 Usage
 
-Usage: nrs [options] [command]
+Usage: nreg [options] [command]
 
-Options:
-  -V, --version   output the version number
-  -h, --help      display help for command
+Options:  
+  -V, --version   output the version number  
+  -h, --help      display help for command  
 
-Commands:
-  list            list packages
-  use             Please select a registry
-  current         current registry
-  add             add registry
-  del [options]   delete registry
-  rename          rename registry
-  edit            edit registry
-  ping [regName]  ping registry
-  help [command]  display help for command
+Commands:  
+
+  list             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; list packages  
+  use              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Please select a registry  
+  current          &emsp;&emsp;&emsp;&emsp;&emsp;current registry  
+  add              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; add registry  
+  del [options]    &emsp;&emsp; delete registry  
+  rename           &emsp;&emsp;&emsp;&emsp;&emsp;rename registry  
+  edit             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;edit registry  
+  ping [regName]   &emsp;ping registry  
+  help [command]   &emsp;display help for command  

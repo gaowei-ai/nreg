@@ -31,7 +31,7 @@ const printMessage = (message, color = 'blue') => {
 
 const hasCustomRegistry = () => {
 	if (REGISTRIES_KEYS.length === WHITE_LIST.length) {
-		printError('当前无自定义镜像可以删除')
+		printError('当前无自定义镜像')
 		return false
 	}
 	return true
