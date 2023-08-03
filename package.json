@@ -1,7 +1,7 @@
 {
   "name": "nreg",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "切换 node 镜像源的库",
   "main": "index.js",
   "bin": {
     "nreg": "./src/index.js"
@@ -21,7 +21,7 @@
     "type": "git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^11.0.0",
